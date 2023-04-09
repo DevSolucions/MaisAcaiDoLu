@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Lilita+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body,
+html {
+    background-color:rgb(190, 121, 233);
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .tree-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tree-container .avatar .image {
+    width: 300px;
+    margin-bottom: 18px;
+}
+
+.tree-container .links-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px 0;
+}
+
+h6 {
+    font-family: 'Lilita One', cursive;
+    text-align: center;
+    color:rgb(90, 5, 90);
+    font-size: 40px;
+    margin-bottom: 22px;
+}
+
+.cardapio {
+    width: 320px;
+    height: 40px;
+    /*border: 2.5px solid #5b0ca5;*/
+    background-color: #5b0ca5;
+    color:#f3f1d1;
+    border-radius: 15px;
+    font-size: 25px;
+    font-family: 'Concert One', cursive;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 4px 0;
+    margin-bottom: 18px;
+}
+
+.whatsapp {
+    width: 320px;
+    height: 40px;
+    /*border: 2.5px solid #128C7E;*/
+    background-color:#128c7efd;
+    color:#ffffff;
+    border-radius: 15px;
+    font-size: 25px;
+    font-family: 'Concert One', cursive;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 4px 0;
+    margin-bottom: 18px;
+}
+
+.ifood {
+    width: 320px;
+    height: 40px;
+    /*border: 2.5px solid #f40000;*/
+    background-color:#f40000;
+    color:#ffffff;
+    border-radius: 15px;
+    font-size: 25px;
+    font-family: 'Concert One', cursive;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 4px 0;
+    margin-bottom: 18px;
+}
+
+.uairango {
+    width: 320px;
+    height: 40px;
+    /*border: 2.5px solid #c73205;*/
+    background-color:#ff4800;
+    color:#ffffff;
+    border-radius: 15px;
+    font-size: 25px;
+    font-family: 'Concert One', cursive;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 4px 0;
+    margin-bottom: 18px;
+}
+
+.tree-container .socials-container {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 25px;
+}
+
+.socials-container .social {
+    transform: scale(0.9);
+    transition: ease 0.2s;
+}
+
+.socials-container .social:hover {
+    transform: scale(1);
+}
+
+.socials-container .social img {
+    width: 40px;
+    border-radius: 10%;
+}
