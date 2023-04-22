@@ -48,8 +48,7 @@ h6 {
 .cardapio {
     width: 320px;
     height: 40px;
-    /*border: 2.5px solid #5b0ca5;*/
-    background-color: #5b0ca5;
+    background-color: #e02b59;
     color:#f3f1d1;
     border-radius: 15px;
     font-size: 25px;
@@ -63,7 +62,6 @@ h6 {
 .whatsapp {
     width: 320px;
     height: 40px;
-    /*border: 2.5px solid #128C7E;*/
     background-color:#128c7efd;
     color:#ffffff;
     border-radius: 15px;
@@ -78,7 +76,6 @@ h6 {
 .ifood {
     width: 320px;
     height: 40px;
-    /*border: 2.5px solid #f40000;*/
     background-color:#f40000;
     color:#ffffff;
     border-radius: 15px;
@@ -90,10 +87,9 @@ h6 {
     margin-bottom: 18px;
 }
 
-.uairango {
+.KCMS {
     width: 320px;
     height: 40px;
-    /*border: 2.5px solid #c73205;*/
     background-color:#ff4800;
     color:#ffffff;
     border-radius: 15px;
